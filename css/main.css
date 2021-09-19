@@ -134,7 +134,7 @@ img {
 }
 
 figure {
-
+ margin: 0;
 }
 
 address {
@@ -166,6 +166,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -235,6 +243,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/main-page-img.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -286,6 +298,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -308,6 +323,7 @@ input[type=button] {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -317,6 +333,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -521,6 +538,10 @@ input[type=button] {
      }
      /* Hero Area */
 
+     .hero-area {
+         min-height: 600px;
+       }
+
      .hero-area h1 {
        font-size: 3em;
        line-height: 1;
@@ -569,6 +590,7 @@ input[type=button] {
        width: 85%;
      }
 
+     .reviews article figure,
      .reviews article div {
        width: 49%;
      }
@@ -687,7 +709,7 @@ input[type=button] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
 }
 
   /* Aside */
