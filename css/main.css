@@ -103,6 +103,7 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
 }
 
 a {
@@ -114,6 +115,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -607,6 +609,10 @@ input[type=button] {
 
      .features .features-item-description {
        width: 62%;
+     }
+
+     .features i {
+       margin-bottom: 30px;
      }
 
      /* Reviews */
